@@ -43,15 +43,30 @@ body{
     font-size: 10px;
     border-radius: 30px;
 }
-.scroll-btn{
+.scroll-bar{
     animation: mover 1s infinite alternate;
 }
 @keyframes mover{
     0%{transform: translateY(0)};
     100%{transform: translateY(10px)};
 }
-
-
-
-
-
+.about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #000;
+}
+.profile-img{
+    padding-bottom: 50px;
+    height: 400px;
+}
+.nav-bar{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+.navbar{
+    background-color: #000;
+}
+.navbar-brand img{
+    height: 70px;
+}
