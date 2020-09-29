@@ -58,6 +58,9 @@ body{
 }
 .profile-img{
     height: 400px;
+    /*width: 250px;
+    box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 6px rgb(43, 39, 39);
+    text-align: center;*/
 }
 .nav-bar{
     top: 0;
@@ -148,7 +151,4 @@ body{
 }
 .text-center{
     text-decoration: underline;
-}
-#about{
-    background-color: #ebe6e6;
 }
