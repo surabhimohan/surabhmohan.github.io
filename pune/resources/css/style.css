@@ -1,0 +1,59 @@
+.history{
+    margin: 2% 5% 5% 5%;
+}
+
+.history img{
+    float: right;
+    width: 200px;
+    height: 180px;
+}
+
+.destination{
+    margin: 2% 3% 5% 3%;
+}
+.destination img{
+    float: right;
+    width: 200px;
+    height: 180px;
+}
+.destination li a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    background-color:black;
+    color: white;
+}
+.gallery{
+    margin: 20px;
+}
+.gallery img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    margin-left: 5px;
+}   
+.home{
+    margin: 10em;
+    
+}
+.hometext{
+    text-align: center;
+    width: 50%;
+    float: left;    
+    margin-top: 3em;
+}
+.hometext span{
+    font-size: 3em;
+    color: white;
+}
+.video{
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    height: 40vh;
+    float: right;
+}
+.bggray {
+    background-color: #333;
+  }
