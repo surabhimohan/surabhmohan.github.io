@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.min.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+    <section class="menu">
+
+        <div class="title">
+            <h2>Our Menu</h2>
+            <div class="underline"></div>
+        </div>
+        <!--filter buttons-->
+        <div class="btn-container">
+            <button class="filter-btn" type="button" 
+            data-id="all"></button>
+            <button class="filter-btn" type="button">breakfast</button>
+            <button class="filter-btn" type="button">lunch</button>
+            <button class="filter-btn" type="button">shakes</button>
+        </div>
+        <!--menu items-->
+        <div class="section-center">
+            <article class="menu-item">
+                <img src="./menupics/classic-chocolate-mousse.jpg" class="photo" alt="menu item">
+                <div class="item-info">
+                    <header>
+                        <h4>classic-chocolate-mousse</h4>
+                        <h4 class="price">$15</h4>
+                    </header>
+                    <p class="item-text">This Chocolate Mousse is thick, rich, creamy, and a perfect dessert for entertaining! Not only is
+                        it pretty, everyone gets their own serving, and you can make it a day ahead of time.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <script src="menu.js"></script>
+</body>
+
+</html>

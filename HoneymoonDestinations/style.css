@@ -17,7 +17,7 @@ header{
 .logo img{
     margin-top: 5px;
     height: auto;
-    width: 90px;
+    width: 50px;
     float: left;
 }
 ul{
@@ -46,10 +46,10 @@ ul li.active a{
     position: absolute;
     bottom: 40%;
     left: 50%;
-    transform: translate(-60%,-50%);
+    transform: translate(-75%,-50%);
 }
 .title h1{
     color: yellow;
-    font-size: 80px;
-    font-family: cursive;
+    font-size: 50px;
+    font-family: fantasy;
 }
